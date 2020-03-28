@@ -55,6 +55,10 @@ set confirm
 set nonumber
 set norelativenumber
 
+" when splitting, focus on the new split
+set splitbelow
+set splitright
+
 """"""""""""""""""""""""""""""""""""""""
 " MAPPINGS                             "
 """"""""""""""""""""""""""""""""""""""""
@@ -97,4 +101,3 @@ vnoremap < <gv
 vnoremap > >gv
 
 command! -nargs=1 Grep grep <f-args> -r .
-
